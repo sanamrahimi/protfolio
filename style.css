@@ -11,26 +11,25 @@ body {
 }
 
 .nav img {
-  margin: 35px 41px 20px 0;
+  margin: 7%;
 }
 
 .descripion {
   background-image: url(img/backgrounf.png);
   background-repeat: no-repeat;
-  height: 100vh;
   background-size: cover;
-  margin-top: 92px;
-  padding-bottom: 42px;
+  margin-top: 20%;
+  padding-bottom: 8%;
 }
 
 .descripion h1,
 h2,
 h3 {
   font-family: 'Inter', sans-serif;
-  font-size: 40px;
-  font-weight: 700px;
+  font-size: 250%;
+  font-weight: 4000%;
   text-align: center;
-  line-height: 52px;
+  line-height: 145%;
   color: #172b4d;
   margin: 0;
 }
@@ -41,12 +40,12 @@ h3 {
 
 .descripion p {
   font-family: 'Inter', sans-serif;
-  font-size: 20px;
+  font-size: 130%;
   color: #172b4d;
-  font-weight: 400;
+  font-weight: 2500%;
   text-align: center;
-  line-height: 28px;
-  margin: 15px 27px 23px 27px;
+  line-height: 168%;
+  margin: 4%;
 }
 
 .social-links ul {
@@ -54,7 +53,7 @@ h3 {
   justify-content: center;
   list-style: none;
   align-items: center;
-  margin-top: 24px;
+  margin-top: 7%;
 }
 
 .social-links img {
@@ -63,7 +62,7 @@ h3 {
 
 .footer {
   display: flex;
-  margin-top: 60px;
+  margin-top: 14%;
   justify-content: center;
 }
 
@@ -74,23 +73,23 @@ h3 {
 
 .works h2 {
   font-family: 'Inter', sans-serif;
-  font-weight: 700;
-  line-height: 52px;
+  font-weight: 4000%;
+  line-height: 140%;
   text-align: center;
-  margin: 63px 28px 24px 26px;
+  margin: 10%;
   color: #172b4d;
-  font-size: 40px;
+  font-size: 250%;
 }
 
 .straight-line {
   align-self: center;
-  margin-bottom: 62px;
+  margin-bottom: 14%;
 }
 
 .cards {
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 24px;
+  grid-gap: 1%;
 }
 
 .card-one {
@@ -103,24 +102,24 @@ h3 {
 
 .t-container {
   position: absolute;
-  bottom: 1px;
+  bottom: 1%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #fff;
   width: 327px;
-  border-radius: 8px;
+  border-radius: 5%;
 }
 
 .t-container h2 {
   font-family: 'Inter', sans-serif;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 32px;
+  font-weight: 6000%;
+  font-size: 150%;
+  line-height: 140%;
   text-align: center;
   color: #3a4a42;
-  margin: 16px;
+  margin: 6%;
 }
 
 .t-container ul {
@@ -130,8 +129,8 @@ h3 {
   list-style: none;
   font-family: 'Inter', sans-serif;
   font-weight: 600;
-  font-size: 12px;
-  line-height: 16px;
+  font-size: 74%;
+  line-height: 150%;
   color: #3a4a42;
   margin: 0;
   padding: 0;
@@ -141,20 +140,20 @@ h3 {
   background-color: #ebf0ee;
   padding: 8px 12px 8px 12px;
   margin-right: 8px;
-  border-radius: 4px;
+  border-radius: 20%;
 }
 
 .t-container button {
   margin: 29px 0 24px 0;
-  width: 122px;
+  width: 45%;
   height: 48px;
   background-color: #36b37f;
-  border-radius: 4px;
+  border-radius: 5%;
   border: none;
   font-family: 'Inter', sans-serif;
   font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
+  font-size: 115%;
+  line-height: 150%;
   text-align: center;
   color: #fff;
 }
