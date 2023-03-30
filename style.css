@@ -158,14 +158,6 @@ h3 {
   color: #fff;
 }
 
-.t-container button:hover {
-  box-shadow: 0 5px 15px rgba(30, 72, 143, 0.24);
-}
-
-.t-container button:active {
-  background-color: #0a2759;
-}
-
 .card-two {
   display: flex;
   flex-direction: column;
@@ -205,18 +197,21 @@ h3 {
   align-items: center;
   position: relative;
 }
+
 .about {
   margin-top: 50%;
 }
+
 .about-me {
-   background-image: url(img/about-me-1.png), url(img/about-me-2.png);
-   background-repeat: no-repeat, no-repeat;
-   background-position: top 0 right 0, bottom 0 left 0;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
+  background-image: url(img/about-me-1.png), url(img/about-me-2.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: top 0 right 0, bottom 0 left 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
 .about-me h2 {
   font-family: 'Inter', sans-serif;
   font-weight: 700;
@@ -226,22 +221,23 @@ h3 {
   color: #172b4d;
   margin: 0 0 0 0;
 }
-.about-me p{
+
+.about-me p {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
-  color: #42526E;
+  color: #42526e;
   font-size: 20px;
   line-height: 28px;
   text-align: center;
   margin: 24px 18px 24px 12px;
- 
 }
+
 .about-me button {
   width: 153px;
   height: 48px;
   border-radius: 4px;
   border: none;
-  background-color: #36B37F;
+  background-color: #36b37f;
   color: #fff;
   font-family: 'Inter', sans-serif;
   font-weight: 500;
@@ -249,12 +245,23 @@ h3 {
   line-height: 24px;
   text-align: center;
 }
+
 .about-me button:hover {
   box-shadow: 0 5px 15px rgba(30, 72, 143, 0.24);
 }
+
 .about-me button:active {
   background-color: #0a2759;
 }
+
+.t-container button:hover {
+  box-shadow: 0 5px 15px rgba(30, 72, 143, 0.24);
+}
+
+.t-container button:active {
+  background-color: #0a2759;
+}
+
 .about-me-cards {
   display: flex;
   flex-direction: column;
@@ -264,6 +271,7 @@ h3 {
   padding: 0;
   margin-top: 59px;
 }
+
 .about-me-card {
   display: flex;
   flex-direction: column;
@@ -274,9 +282,11 @@ h3 {
   height: 316px;
   border-radius: 8px;
 }
+
 .about-me-card img {
   margin-top: 40px;
 }
+
 .about-me-card h2 {
   font-family: 'Inter', sans-serif;
   color: #344563;
@@ -286,6 +296,7 @@ h3 {
   text-align: center;
   margin: 0;
 }
+
 .about-me-card ul {
   list-style: none;
   margin: 24px 0 24px 0;
@@ -300,9 +311,10 @@ h3 {
   font-size: 12px;
   line-height: 16px;
 }
+
 .about-me-card li {
   background-color: #fff;
-  color: #36B37E;
+  color: #36b37e;
   border-radius: 8px;
   padding: 12px;
   margin: 0 8px 8px 0;
