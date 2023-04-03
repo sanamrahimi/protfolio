@@ -123,7 +123,12 @@ h3 {
 }
 
 .t-container ul {
-  display: flex;
+
+display: inline-block;
+align-items: center;
+justify-content: space-between;
+list-style: none;
+/* display: flex;
   align-items: center;
   justify-content: space-between;
   list-style: none;
@@ -134,13 +139,19 @@ h3 {
   color: #3a4a42;
   margin: 0;
   padding: 0;
+  */
 }
 
 .t-container li {
+float: left;
+background-color: #ebf0ee;;
+  
+  /*
   background-color: #ebf0ee;
   padding: 8px 12px 8px 12px;
   margin-right: 8px;
   border-radius: 20%;
+  */
 }
 
 .t-container button {
