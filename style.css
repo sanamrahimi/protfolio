@@ -90,7 +90,7 @@ h3 {
 
 .works h2 {
   font-family: 'Inter', sans-serif;
-  font-weight: 4000%;
+  font-weight: 700;
   line-height: 140%;
   text-align: center;
   margin: 10%;
@@ -106,8 +106,9 @@ h3 {
 .cards {
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 1%;
+  grid-gap: 24px;
 }
+
 
 .t-container {
   position: absolute;
@@ -400,4 +401,177 @@ h3 {
   flex-direction: column;
   margin-top: 31px;
   margin-bottom: 45px;
+}
+
+@media screen and (min-width: 768px) {
+ * {
+  font-family: 'Inter', sans-serif;
+ }
+
+.header {
+  background-image: url(img/option2.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top 0;
+  padding-bottom: 395px;
+}
+
+.nav {
+  justify-content: center;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav img {
+  display: none;
+}
+
+.nav a {
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+  color: #172b4d;
+  font-weight: 600;
+  border-radius: 15px;
+}
+
+.nav a:hover {
+  background-color: #172b4d;
+  color: #fff;
+  border-radius: 16px;
+}
+
+.descripion {
+  background-image: none;
+}
+
+.descripion h1,
+h2 {
+  padding: 170px 10px 10px 0;
+}
+
+.descripion h1,
+h2,
+h3 {
+  font-size: 48px;
+  line-height: 60px;
+  font-weight: 800;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.descripion p {
+  margin: 24px 25% 34px 25%;
+}
+
+.works {
+  margin: 0 8% 0 8%;
+}
+
+.works h2 {
+  padding: 100px 0 52px 0;
+  margin: 0;
+}
+
+.straight-line {
+  display: none;
+}
+
+.cards {
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 32px;
+  grid-column-gap: 24px;
+}
+
+.t-container h2 {
+  padding: 0;
+  margin: 16px;
+}
+
+.about {
+  margin-top: -50%;
+}
+
+.about-me {
+  background-image: none;
+  background-image: url(img/illustration-about-me-desktop.png), url(img/illustration-about-me-2-desktop.png);
+  background-size: contain, inherit;
+  background-repeat: no-repeat;
+  background-position: top 89px right 0, bottom 15px left 0;
+}
+
+.about-me h2 {
+  padding: 192px 0 0 0;
+  margin: 0;
+}
+
+.about-me p {
+  margin: 24px 25% 34px 25%;
+}
+
+.about-me-cards {
+  margin: 70px 0 0 0;
+  flex-direction: row;
+}
+
+.about-me-card {
+  height: 336px;
+  justify-content: flex-start;
+}
+
+.about-me-card h2 {
+  padding: 0;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: none;
+  background-image: url(img/illustration-1-contact-form-desktop.png), url(img/illustration-2-contact-form-desktop@2x.png), url(img/contact-form-illustratoin-3-desktop.png);
+  background-position: left 0 bottom 85px, left 280px bottom 175px, right 0 bottom 93px;
+
+}
+
+
+.contact-me {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-top: 98px;
+  width: 62%;
+  padding-bottom: 238px;
+}
+
+.contact-me h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+  width: 40%;
+}
+
+.contact-me form {
+  margin: 0;
+  width: 60%;
+}
+
+.contact-me button {
+  align-self: flex-start;
+}
+
+.footer {
+  border-top: solid 1px #dfe1e6;
+  margin: 0;
+  width: 100%;
+}
+
+.email {
+  display: none;
+}
+  
 }
