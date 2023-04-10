@@ -8,7 +8,7 @@
 <div align="center">
 
  
-  <h3><b>Portfolio setup and mobile</b></h3>
+  <h3><b>Portfolio</b></h3>
 
 </div>
 
@@ -18,6 +18,7 @@
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
+   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -55,7 +56,11 @@ Build with [flexbox]
 Projects Information
 Contact Information
 
+## 🚀 Live Demo <a name="live-demo"></a>
 
+- [Live Demo Link](https://sanamrahimi.github.io/protfolio/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 💻 Getting Started <a name="getting-started"></a>
