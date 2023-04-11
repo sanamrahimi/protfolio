@@ -293,8 +293,7 @@ h2 {
 }
 
 .about-me button:hover {
-  box-shadow: 0 8px 16px rgba(54,
-    179, 127, 0.24);
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
   font-size: 2vw;
   border-radius: 4px;
 }
@@ -471,14 +470,10 @@ h2 {
 
   .descripion h1,
   h2 {
-    padding: 170px 10px 10px 0;
-  }
-
-  .descripion h1,
-  h2 {
     font-size: 48px;
     line-height: 60px;
     font-weight: 800;
+    padding: 170px 10px 10px 0;
   }
 
   .works h3 {
