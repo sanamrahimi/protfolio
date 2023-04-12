@@ -160,9 +160,7 @@ I would like to thank Microverse for their support.
 
 
 
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
+## ❓ FAQ <a name="faq"></a>
 
 - **[Question_1]**Is their support team?
 
