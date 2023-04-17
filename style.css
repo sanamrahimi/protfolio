@@ -89,7 +89,6 @@ h3 {
 
 .descripion .green {
   color: #36b37e;
- 
 }
 
 .descripion p {
@@ -266,7 +265,6 @@ h3 {
   position: relative;
 }
 
-
 .about-me {
   margin-top: 50%;
   background-image: url(img/about-me-1.png), url(img/about-me-2.png);
@@ -328,7 +326,6 @@ h3 {
   text-align: center;
   color: #fff;
 }
-
 
 .about-me button:hover {
   box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
