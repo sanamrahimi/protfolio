@@ -89,7 +89,6 @@ h3 {
 
 .descripion .green {
   color: #36b37e;
- 
 }
 
 .descripion p {
@@ -192,7 +191,7 @@ h3 {
   margin: 16px;
 }
 
-.text-container  ul {
+.text-container ul {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -229,55 +228,6 @@ h3 {
   color: #fff;
   transition: all 0, 5s ease-in-out;
 }
-/*
-.card-one {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-}
-
-.card-two {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-}
-
-.card-three {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-}
-
-.card-four {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-}
-
-.card-five {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-}
-
-.card-six {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-}
-*/
 
 .about-me {
   margin-top: 50%;
@@ -340,7 +290,6 @@ h3 {
   text-align: center;
   color: #fff;
 }
-
 
 .about-me button:hover {
   box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
@@ -474,9 +423,9 @@ h3 {
   margin-bottom: 45px;
 }
 
- /*pop up */
+/* pop up */
 
- .popup-main {
+.popup-main {
   background-color: #c1c7d0dc;
   position: fixed;
   z-index: 1000;
@@ -500,7 +449,6 @@ h3 {
   background-color: #fff;
 }
 
-
 .close-button-desktop {
   display: none;
 }
@@ -521,25 +469,14 @@ h3 {
   transform: scale(1.2);
 }
 
-
-
-
-
-
-
-
-
-
 .popup-img-desktop {
- display: none;
+  display: none;
 }
-
 
 .popup-img-mobile {
   width: 100%;
   min-height: 40%;
 }
-
 
 .popup h1 {
   font-weight: 600;
@@ -588,7 +525,7 @@ h3 {
   justify-content: center;
   align-items: center;
   padding: 12px 16px;
-  background-color:  #36B37E;
+  background-color: #36b37e;
   color: #fff;
   text-decoration: none;
   font-weight: 500;
@@ -599,19 +536,15 @@ h3 {
   border: none;
 }
 
-
 .buttons a:hover {
-  box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);;
-  border: 1px solid  #36B37F;
-  ;
-  background-color: #36B37F; ;
-  color:  #36B37F;
-  ;
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+  border: 1px solid  #36b37f;
+  background-color: #36b37f;
+  color: #36b37f;
 }
 
 .buttons a:active {
   background-color: #008552;
-  ;
 }
 
 .buttons a img {
@@ -619,9 +552,6 @@ h3 {
   height: 20px;
   padding-left: 14px;
 }
-
-
-
 
 .nav button:hover {
   transform: scale(1.2);
@@ -656,7 +586,7 @@ h3 {
     gap: 20px;
   }
 
-  .nav .button{
+  .nav .button {
     display: none;
   }
 
@@ -672,8 +602,6 @@ h3 {
     font-weight: 600;
     border-radius: 15px;
   }
-
-  
 
   .descripion {
     background-image: none;
@@ -736,6 +664,7 @@ h3 {
   .text-container {
     height: 280px;
   }
+
   .text-container h1 {
     padding: 0;
     margin: 16px;
@@ -830,7 +759,6 @@ h3 {
     width: 70%;
     height: 80%;
     border-radius: 8px;
-
   }
 
   .close-button {
@@ -849,34 +777,16 @@ h3 {
   .close-button-desktop:hover {
     transform: scale(1.1);
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*
   .popup-img-mobile {
     display: none;
   }
- 
+
   .popup-img-desktop {
     width: 100%;
     min-height: 40%;
     display: block;
   }
-  
- 
-  
 
   .cont-row {
     display: flex;
@@ -889,7 +799,6 @@ h3 {
     text-align: start;
   }
 
-  
   .buttons {
     align-items: flex-start;
     justify-content: flex-end;
@@ -918,4 +827,5 @@ h3 {
     color: #fff;
     border-radius: 15px;
   }
+  */
 }

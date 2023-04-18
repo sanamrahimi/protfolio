@@ -18,9 +18,6 @@ navLink.forEach((navLink) => {
   });
 });
 
-
-
-
 const projects = {
   project1: {
     id: 1,
