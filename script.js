@@ -216,3 +216,29 @@ form.addEventListener('submit', (event) => {
     emailInput.style.border = '1px solid red';
   }
 });
+
+const nameField = document.getElementById('full-name');
+const emailField = document.getElementById('email-address');
+const messageField = document.getElementById('message');
+
+const formFields = JSON.parse(localStorage.getItem('formFields')) || {
+  name: '',
+  email: '',
+  message: '',
+};
+
+const addInfo = () => {
+  formFields.name = nameField.value;
+  formFields.email = emailField.value;
+  formFields.message = messageField.value;
+
+  localStorage.setItem('formFields', JSON.stringify(formFields));
+};
+
+nameField.onchange = addInfo;
+emailField.onchange = addInfo;
+messageField.onchange = addInfo;
+
+nameField.value = formFields.name;
+emailField.value = formFields.email;
+messageField.value = formFields.message;
