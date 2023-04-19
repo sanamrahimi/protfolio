@@ -217,9 +217,8 @@ form.addEventListener('submit', (event) => {
   }
 });
 
-
 const nameField = document.getElementById('full-name');
-const emailField = document.getElementById('email-address')
+const emailField = document.getElementById('email-address');
 const messageField = document.getElementById('message');
 
 const formFields = JSON.parse(localStorage.getItem('formFields')) || {
@@ -235,7 +234,7 @@ const addInfo = () => {
 
   localStorage.setItem('formFields', JSON.stringify(formFields));
 };
-
+/*
 nameField.onchange = addInfo;
 emailField.onchange = addInfo;
 messageField.onchange = addInfo;
@@ -243,3 +242,4 @@ messageField.onchange = addInfo;
 nameField.value = formFields.name;
 emailField.value = formFields.email;
 messageField.value = formFields.message;
+*/
