@@ -234,7 +234,7 @@ const addInfo = () => {
 
   localStorage.setItem('formFields', JSON.stringify(formFields));
 };
-/*
+
 nameField.onchange = addInfo;
 emailField.onchange = addInfo;
 messageField.onchange = addInfo;
@@ -242,4 +242,3 @@ messageField.onchange = addInfo;
 nameField.value = formFields.name;
 emailField.value = formFields.email;
 messageField.value = formFields.message;
-*/
