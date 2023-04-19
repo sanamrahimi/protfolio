@@ -216,4 +216,3 @@ form.addEventListener('submit', (event) => {
     emailInput.style.border = '1px solid red';
   }
 });
-
